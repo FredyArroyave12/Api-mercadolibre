@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(184, 179, 179);
+  min-height: 100%;
+}
+h6 {
+  text-align: left;
+}
+.navBar {
+  
+  background-color: #FBF159;
+  color: #777340;
+  text-align: center;
+}
+
+.navBarDegradeitor {
+  background-color: rgb(1, 22, 9);
+  align-items: center;
+}
+
+
+.botondefecto {
+  background-color: #4482FF;
+}
+h1 {
+  color: #777340;
+  font-weight: 900;
+}
+
+.foo-appear {
+  opacity: .01;
+}
+
+.foo-appear.foo-appear-active {
+  opacity: 1;
+  transition: opacity 5s ease-in;
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .buscar{
+    width: 100%
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .buscar{
+    width: 500px
+  }
+}
